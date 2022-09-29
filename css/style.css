@@ -1,25 +1,25 @@
 /* COMMON */
-img{
+img {
   width: 100%;
 }
-html{
+html {
   font-size: 100%;
 }
 /* CUSTOM PROPERTIES */
-:root{
+:root {
   --header-height: 104px;
 }
 
 /* HEADER */
-#sony{
+#sony {
   height: 30px;
   background-color: black;
 }
-#sony img{
+#sony img {
   height: 15px;
   margin-left: auto;
 }
-.nav-link{
+.nav-link {
   color: black;
 }
 
@@ -27,7 +27,7 @@ html{
   content: "\f107";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: .7rem;
+  font-size: 0.7rem;
   border: 0;
 }
 
@@ -38,25 +38,25 @@ html{
 }
 .ms_jumbotron-first {
   margin-top: var(--header-height);
-  background-image: url('../img/jumbo-bg.png');
+  background-image: url("../img/jumbo-bg.png");
 }
-.ms_jumbotron-first, .ms_jumbotron-second{
+.ms_jumbotron-first,
+.ms_jumbotron-second {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .ms_jumbotron-second {
-  background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
-.ms_jumbotron-txt img{
+.ms_jumbotron-txt img {
   width: 50%;
 }
-@media screen and (min-width:992px){
-  .ms_jumbotron-txt{
+@media screen and (min-width: 992px) {
+  .ms_jumbotron-txt {
     width: 30%;
   }
 }
-
 
 .ms_slider {
   /* DEBUG */
@@ -85,4 +85,13 @@ html{
 footer {
   /* DEBUG */
   background-color: blue;
+}
+#footer-top .card img {
+  /* DEBUG */
+  width: 20px;
+}
+
+/* Typo */
+.ms_title {
+  text-align: center;
 }
