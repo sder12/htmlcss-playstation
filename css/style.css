@@ -26,6 +26,7 @@ html {
 }
 #playstation-now{
   background-color: var(--ms_banner-two);
+  color: white;
 }
 footer {
   background-color: var(--ms_footer-color);
@@ -33,6 +34,13 @@ footer {
 }
 
 /* COMMON */
+section{
+  padding: 1em 0;
+}
+.card{
+  background-color: inherit;
+  border: 0;
+}
 /* Typo */
 .ms_title {
   text-align: center;
@@ -93,5 +101,3 @@ footer {
   /* DEBUG */
   width: 20px;
 }
-
-
