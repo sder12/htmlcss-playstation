@@ -7,7 +7,35 @@ html {
 }
 /* CUSTOM PROPERTIES */
 :root {
+  /* Colors */
+  --ms_release:#1F1F1F;
+  --ms_banner-one: #BEBCBB;
+  --ms_banner-two: #161C3B;
+  --ms_footer-color: #00439C;
+  /* Dimension */
   --header-height: 104px;
+}
+
+/* BACKGROUND COLOR */
+#release{
+  background-color: var(--ms_release);
+  color: white;
+ }
+#playstation-plus{
+  background-color: var(--ms_banner-one);
+}
+#playstation-now{
+  background-color: var(--ms_banner-two);
+}
+footer {
+  background-color: var(--ms_footer-color);
+  color: white;
+}
+
+/* COMMON */
+/* Typo */
+.ms_title {
+  text-align: center;
 }
 
 /* HEADER */
@@ -58,40 +86,12 @@ html {
   }
 }
 
-.ms_slider {
-  /* DEBUG */
-  background-color: lightgreen;
-}
-.ms_console-five {
-  /* DEBUG */
-  background-color: lightblue;
-}
-.ms_title {
-  /* DEBUG */
-  border: 1px solid black;
-}
-.ms_three-template {
-  /* DEBUG */
-  background-color: rgb(255, 209, 123);
-}
-.ms_banner {
-  /* DEBUG */
-  background-color: rgb(124, 124, 253);
-}
-.ms_social {
-  /* DEBUG */
-  background-color: rgb(250, 138, 250);
-}
-footer {
-  /* DEBUG */
-  background-color: blue;
-}
+
+/* FOOTER */
+
 #footer-top .card img {
   /* DEBUG */
   width: 20px;
 }
 
-/* Typo */
-.ms_title {
-  text-align: center;
-}
+
