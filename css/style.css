@@ -5,6 +5,10 @@ img{
 html{
   font-size: 100%;
 }
+/* CUSTOM PROPERTIES */
+:root{
+  --header-height: 104px;
+}
 
 /* HEADER */
 #sony{
@@ -27,13 +31,9 @@ html{
   border: 0;
 }
 
-
-
-header {
-
-}
 .ms_jumbotron {
   /* DEBUG */
+  margin-top: var(--header-height);
   width: 100%;
   height: 360px;
   background-color: lightcoral;
@@ -41,7 +41,7 @@ header {
 .ms_slider {
   /* DEBUG */
   width: 100%;
-  height: 360px;
+
   background-color: lightgreen;
 }
 .ms_console-five {
