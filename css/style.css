@@ -31,13 +31,30 @@ html{
   border: 0;
 }
 
+/* JUMBOTRON */
 .ms_jumbotron {
-  /* DEBUG */
-  /* margin-top: var(--header-height); */
-  width: 100%;
-  height: 360px;
-  background-color: lightcoral;
+  min-height: 500px;
+  color: white;
 }
+.ms_jumbotron-first {
+  margin-top: var(--header-height);
+  background-image: url('../img/jumbo-bg.png');
+}
+.ms_jumbotron-first, .ms_jumbotron-second{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ms_jumbotron-second {
+  background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+@media screen and (min-width:992px){
+  .ms_jumbotron-txt{
+    width: 30%;
+  }
+}
+
+
 .ms_slider {
   /* DEBUG */
   background-color: lightgreen;
