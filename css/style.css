@@ -56,8 +56,6 @@ html{
 }
 .ms_banner {
   /* DEBUG */
-  width: 100%;
-  height: 360px;
   background-color: rgb(124, 124, 253);
 }
 .ms_social {
