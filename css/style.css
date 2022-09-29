@@ -64,7 +64,5 @@ html{
 }
 footer {
   /* DEBUG */
-  width: 100%;
-  height: 360px;
   background-color: blue;
 }
