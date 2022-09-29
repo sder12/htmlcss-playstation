@@ -48,6 +48,9 @@ html{
 .ms_jumbotron-second {
   background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
+.ms_jumbotron-txt img{
+  width: 50%;
+}
 @media screen and (min-width:992px){
   .ms_jumbotron-txt{
     width: 30%;
