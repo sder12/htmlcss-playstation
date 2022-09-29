@@ -21,13 +21,72 @@
 
 <body>
   <!-- Header ------------->
-  <header>
+  <header class="fixed-top">
+
     <!-- Sony -->
     <section id="sony">
+      <div class="container-fluid">
+        <img src="img/sony_logo.svg" alt="">
+      </div>
     </section>
     <!-- End Sony -->
+
     <!-- Navigation menu -->
-    <nav id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#"> <img src="img/play_logo.svg" alt=""> </a>
+        <!-- Hamburger -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Left -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Giochi </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Hardware</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Servizi </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Novità</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Fai acquisti</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Supporto</a>
+            </li>
+          </ul>
+          <!-- Navbar Left -->
+          <div class="ms-auto">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">My Playstation</a>
+              </li>
+              <li>
+                <a class="btn btn-secondary rounded-pill">Accedi</a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
     <!-- End Navigation menu -->
   </header>
@@ -37,7 +96,10 @@
   <main>
     <!-- A -->
     <!-- Jumbotron-->
-    <section class="ms_jumbotron"> </section>
+    <section class="ms_jumbotron">
+      <div class="container">
+      </div>
+    </section>
     <!-- End Jumbotron-->
 
     <!-- B -->
@@ -49,13 +111,13 @@
     <section class="ms_console-five">
       <section class="ms_title"></section>
     </section>
-    <!-- End Console Five -->   
-    
+    <!-- End Console Five -->
+
     <!-- A -->
     <!-- Jumbotron inside-->
     <section class="ms_jumbotron"></section>
     <!-- End Jumbotron inside -->
-    
+
     <!-- B -->
     <!-- New Release -->
     <section class="ms_slider"></section>
@@ -72,7 +134,7 @@
     <!-- Playstation Plus Banner inside -->
     <section class="ms_banner"></section>
     <!-- End Playstation Plus Banner inside -->
-    
+
     <!-- C -->
     <!-- Discount -->
     <section class="ms_three-template">
@@ -80,7 +142,7 @@
     </section>
     <!-- End Discount -->
 
-     <!-- D -->
+    <!-- D -->
     <!-- Playstation Now Banner inside -->
     <section class="ms_banner"></section>
     <!-- End Playstation Now Banner inside -->

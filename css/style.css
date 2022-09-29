@@ -1,8 +1,36 @@
-header {
-  /* DEBUG */
+/* COMMON */
+img{
   width: 100%;
-  height: 60px;
-  background-color: lightgrey;
+}
+html{
+  font-size: 100%;
+}
+
+/* HEADER */
+#sony{
+  height: 30px;
+  background-color: black;
+}
+#sony img{
+  height: 15px;
+  margin-left: auto;
+}
+.nav-link{
+  color: black;
+}
+
+.dropdown-toggle::after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: .7rem;
+  border: 0;
+}
+
+
+
+header {
+
 }
 .ms_jumbotron {
   /* DEBUG */
