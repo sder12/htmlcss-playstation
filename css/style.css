@@ -94,10 +94,24 @@ section{
   }
 }
 
+/* BTN */
+#playstation-now a{
+  text-decoration: none;
+  color: var(--ms_banner-two);
+}
+
 
 /* FOOTER */
+#footer-top ul li{
+  list-style-type: none;
+  line-height: 2rem;
+}
+#footer-top ul li a{
+  text-decoration: none;
+  color: white;
+}
 
-#footer-top .card img {
+#footer-top .card img:first-of-type {
   /* DEBUG */
   width: 20px;
 }
