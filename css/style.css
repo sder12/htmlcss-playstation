@@ -34,10 +34,23 @@ footer {
 }
 
 /* COMMON */
-section {
-  /* DEBUG */
-  padding: 2rem 0;
+.ms_slider, .ms_title{
+  padding: 3em 0;
 }
+.ms_console-five{
+  padding-bottom: 3em;
+}
+#ms_console-four, #ms_discount, .ms_social{
+  margin-bottom: 5em;
+}
+.ms_jumbotron-second .ms_jumbotron-txt{
+ margin: 3em 0;
+}
+
+#playstation-plus{
+  margin-bottom: 3em;
+}
+
 .card {
   background-color: inherit;
   border: 0;
@@ -118,7 +131,17 @@ h2 {
 #ms_console-five-items .ms_card:not(.ms_console-five-focused) {
   opacity: 0.6;
 }
-
+/* PLAYSTATION PLUS */
+#playstation-plus .ms_playstation-plus-left img{
+  max-width: 70%;
+}
+/* PLAYSTATION NOW */
+#playstation-now .ms_playstation-now-left img{
+  max-width: 50%;
+}
+.ms_playstation-now-left>*:not(:last-child){
+  padding-bottom: 1em;
+}
 /* BTN */
 #playstation-now a {
   text-decoration: none;
@@ -126,6 +149,12 @@ h2 {
 }
 
 /* FOOTER */
+footer{
+  padding: 4em 0;
+}
+#footer-top span{
+  margin: 2em 0;
+}
 #footer-top ul li {
   list-style-type: none;
   line-height: 2rem;
@@ -134,8 +163,10 @@ h2 {
   text-decoration: none;
   color: white;
 }
-
 #footer-top .card img:first-of-type {
-  /* DEBUG */
-  width: 20px;
+  width: 80px;
+}
+#footer-bottom .col img{
+  display: inline-block;
+  width: 10%;
 }
