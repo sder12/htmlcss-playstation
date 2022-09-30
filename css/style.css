@@ -170,3 +170,67 @@ footer{
   display: inline-block;
   width: 10%;
 }
+
+
+/* ANIMATION */
+.btn:hover{
+  outline: 2px solid lightgray;
+  outline-offset: -5px;
+}
+#ms_console-five-items .ms_card:not(.ms_console-five-focused):hover {
+  opacity: 1;
+}
+.ms_slider .col:hover .card{
+  transform: translate(0, -15px);
+  transition: .5s all;
+}
+
+/* MENU ANIMATION */
+.navbar-collapse .nav-item:hover .dropdown-toggle::after {
+  content: "\f077";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.7rem;
+  border: 0;
+}
+header:hover #sub-navbar{
+  display: inline-block;
+  width: 100%;
+}
+#sub-navbar{
+  display: none;
+}
+.nav-item:hover #sub-navbar{
+  display: block;
+}
+#sub-navbar{
+  background-color: white;
+}
+#sub-navbar a img{
+  width: 50px;
+}
+#sub-navbar span{
+  display: block;
+}
+#sub-navbar a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+#sub-navbar ul:first-of-type{
+  list-style-type: none;
+  padding: 1.4em 0;
+}
+#sub-navbar ul:first-of-type li{
+  text-align: center;
+}
+#sub-navbar ul:last-of-type{
+  border-top: 2px solid lightgray;
+  margin-left: 10px;
+}
+#sub-navbar ul:last-of-type li{
+  color: var(--bs-blue);
+  text-align: center;
+  margin-left: 1em;
+}
+
