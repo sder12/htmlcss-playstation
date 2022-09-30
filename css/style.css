@@ -8,23 +8,23 @@ html {
 /* CUSTOM PROPERTIES */
 :root {
   /* Colors */
-  --ms_release:#1F1F1F;
-  --ms_banner-one: #BEBCBB;
-  --ms_banner-two: #161C3B;
-  --ms_footer-color: #00439C;
+  --ms_release: #1f1f1f;
+  --ms_banner-one: #bebcbb;
+  --ms_banner-two: #161c3b;
+  --ms_footer-color: #00439c;
   /* Dimension */
   --header-height: 104px;
 }
 
 /* BACKGROUND COLOR */
-#release{
+#release {
   background-color: var(--ms_release);
   color: white;
- }
-#playstation-plus{
+}
+#playstation-plus {
   background-color: var(--ms_banner-one);
 }
-#playstation-now{
+#playstation-now {
   background-color: var(--ms_banner-two);
   color: white;
 }
@@ -34,19 +34,23 @@ footer {
 }
 
 /* COMMON */
-section{
+section {
+  /* DEBUG */
   padding: 2rem 0;
 }
-.card{
+.card {
   background-color: inherit;
   border: 0;
 }
-h2{
-  font-size: 2rem;
+h2 {
+  font-size: 2.4rem;
 }
 /* Typo */
 .ms_title {
   text-align: center;
+}
+.ms_title p {
+  margin-top: 0.8em;
 }
 
 /* HEADER */
@@ -95,29 +99,38 @@ h2{
     width: 40%;
   }
 }
-.ms_jumbotron-txt >*{
+.ms_jumbotron-txt > * {
   margin-bottom: 1.4rem;
 }
 
 /* SLIDER */
-.ms_slider-focused{
+.ms_slider-focused {
   outline: var(--bs-blue) solid 2px;
   outline-offset: 3px;
 }
+/* CONSOLE 5 */
+.ms_console-five-items p {
+  text-align: center;
+}
+.ms_console-five-focused {
+  border-bottom: 3px solid var(--bs-blue);
+}
+#ms_console-five-items .ms_card:not(.ms_console-five-focused) {
+  opacity: 0.6;
+}
 
 /* BTN */
-#playstation-now a{
+#playstation-now a {
   text-decoration: none;
   color: var(--ms_banner-two);
 }
 
-
 /* FOOTER */
-#footer-top ul li{
+#footer-top ul li {
   list-style-type: none;
   line-height: 2rem;
 }
-#footer-top ul li a{
+#footer-top ul li a {
   text-decoration: none;
   color: white;
 }
