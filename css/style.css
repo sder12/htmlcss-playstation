@@ -1,6 +1,6 @@
 /* COMMON */
 img {
-  width: 100%;
+  max-width: 100%;
 }
 html {
   font-size: 100%;
@@ -35,11 +35,14 @@ footer {
 
 /* COMMON */
 section{
-  padding: 1em 0;
+  padding: 2rem 0;
 }
 .card{
   background-color: inherit;
   border: 0;
+}
+h2{
+  font-size: 2rem;
 }
 /* Typo */
 .ms_title {
@@ -52,14 +55,13 @@ section{
   background-color: black;
 }
 #sony img {
-  height: 15px;
-  margin-left: auto;
+  width: 70px;
 }
 .nav-link {
   color: black;
 }
 
-.dropdown-toggle::after {
+.navbar .dropdown-toggle::after {
   content: "\f107";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -90,8 +92,17 @@ section{
 }
 @media screen and (min-width: 992px) {
   .ms_jumbotron-txt {
-    width: 30%;
+    width: 40%;
   }
+}
+.ms_jumbotron-txt >*{
+  margin-bottom: 1.4rem;
+}
+
+/* SLIDER */
+.ms_slider-focused{
+  outline: var(--bs-blue) solid 2px;
+  outline-offset: 3px;
 }
 
 /* BTN */
